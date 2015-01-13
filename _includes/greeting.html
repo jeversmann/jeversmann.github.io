@@ -1,0 +1,12 @@
+<div class="page-header">
+  <h1>Hello, <small id="greeting">name here</small></h1>
+</div>
+
+<script>
+(function () {
+  var names = ["foolish mortal", "worthy opponenet", "internet",
+               "fellow kids", "my pretties", "nerd", "chosen one"];
+  document.getElementById("greeting").innerHTML =
+    names[Math.floor(Math.random() * names.length)];
+}());
+</script>

@@ -3,10 +3,12 @@ layout: page
 title: jeversmann's homepage
 ---
 
-## Hello,
+{% include greeting.html %}
 
-This is where I'm putting my GitHub pages blog.
+I plan to use this blog to document things I feel people might find
+interesting or informative. If one day someone ends up on one of these pages
+from Googling something and learns what they wanted, this was worthwhile.
 
-There isn't anything here at the moment, but soon I'll decide what this is for.
+Since I don't have any sort of commenting available here, if you have comments, questions or concerns about anything open an issue on the [GitHub Page](https://github.com/jeversmann/jeversmann.github.io/issues).
 
 {% include posts.html %}

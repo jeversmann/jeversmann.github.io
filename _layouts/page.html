@@ -2,9 +2,11 @@
 <html lang="en">
   {% include head.html %}
   <body style="padding-top: 50px;">
-    {% include nav.html %}
     <div class="container">
-      {{ content }}
+      {% include nav.html %}
+      <div class="col-md-8">
+        {{ content }}
+      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
